@@ -5,7 +5,7 @@
 
 # Software License Terms Acceptence (see https://hub.docker.com/r/ibmcom/icp-inception/)
 # If you accept the Software license terms please change the value below to 'accept'
-license = "not accepted"
+license = "accept"
 
 # most laptops have at least 8 cores nowadays (adjust based on your laptop hardware)
 cpus = '6'
@@ -21,7 +21,7 @@ version = "3.1.1"
 # on some systems this network segment may overlap another network already on your
 # system. In those cases you will need to change this value to another value
 # i.e. 192.168.56 or 192.168.16 etc...
-base_segment = '192.168.27'
+base_segment = '192.168.56'
 
 # use apt-cacher-ng & docker registry cache servers
 # see instructions in the `README.md` under #Advanced Cache Setup
